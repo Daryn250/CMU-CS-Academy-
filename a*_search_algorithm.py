@@ -1,4 +1,4 @@
-from cmu-graphics import *
+from cmu_graphics import *
 # don't forget to run: pip install cmu-graphics
 # my implementation of the a star search algorithm
 import random
@@ -146,4 +146,4 @@ def onKeyPress(key):
             finish.shape.fill='lime'
             start.shape.fill='red'
             
-cmu-graphics.run()
+cmu_graphics.run()
