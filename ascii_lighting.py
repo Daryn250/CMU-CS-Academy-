@@ -1,4 +1,4 @@
-from cmu-graphics import *
+from cmu_graphics import *
 # don't forget to run: pip install cmu-graphics
 # could be optimized further by looping over nodes not in the radius of the mouse
 xamt = 10
@@ -21,4 +21,4 @@ def onMouseMove(mouseX,mouseY):
                         label.value = ascii[i]
                 else:
                     pass
-cmu-graphics.run()
+cmu_graphics.run()
