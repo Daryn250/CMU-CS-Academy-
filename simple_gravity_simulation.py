@@ -1,4 +1,4 @@
-from cmu-graphics import *
+from cmu_graphics import *
 # remember to run: pip install cmu-graphics
 import random
 import math
@@ -72,4 +72,4 @@ def onKeyPress(key):
         for water in particles:
             print(water.r)
                 
-cmu-graphics.run()
+cmu_graphics.run()
