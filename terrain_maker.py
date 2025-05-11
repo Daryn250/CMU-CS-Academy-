@@ -1,4 +1,4 @@
-from cmu-graphics import *
+from cmu_graphics import *
 # don't forget to run: pip install cmu-graphics
 ### This file was copied from CS1, 3rd Edition on 2023-02-28.
 # most simple version of a world builder, made without for loops
@@ -75,4 +75,4 @@ def onKeyPress(key):
             drawBlock(drawer.centerX,drawer.centerY,rgb(173,123,76))
             player.toFront()
             player.centerX+=20
-cmu-graphics.run()
+cmu_graphics.run()
