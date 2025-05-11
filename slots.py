@@ -1,4 +1,4 @@
-from cmu-graphics import *
+from cmu_graphics import *
 # don't forget to run: pip install cmu-graphics
 #slots
 import random
@@ -365,4 +365,4 @@ def onKeyPress(key):
                 successDisplay.append(Line(100,250,200,150,fill='white',lineWidth=1))
                 successDisplay.append(Line(200,150,300,250,fill='white',lineWidth=1))
         
-cmu-graphics.run()
+cmu_graphics.run()
