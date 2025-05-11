@@ -1,4 +1,4 @@
-from cmu-graphics import *
+from cmu_graphics import *
 # make sure that you run: pip install cmu-graphics
 #Cube
 ### it takes a few seconds for the cube to load (second set of lines is based off of time offset)
@@ -266,7 +266,7 @@ def onMousePress(mouseX,mouseY):
     if debugbutton.hits(mouseX,mouseY):
         debug=True
         debugbutton.fill='blue'
-cmu-graphics.run()
+cmu_graphics.run()
     
  
     
