@@ -1,4 +1,4 @@
-from cmu-graphics import *
+from cmu_graphics import *
 # don't forget to run: pip install cmu-graphics
 #stone game, kinda like pokemon except unfinished and just a theory
 import random
@@ -394,4 +394,4 @@ def onKeyPress(key):
             player_turn=False
         elif player_turn==False:
             player_turn=True
-cmu-graphics.run()
+cmu_graphics.run()
