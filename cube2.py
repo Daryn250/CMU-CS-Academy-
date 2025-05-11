@@ -1,4 +1,4 @@
-from cmu-graphics import *
+from cmu_graphics import *
 # don't forget to run: pip install cmu-graphics
 # makes a shape using an algorithm of 2 parabolas ontop of eachother
 
@@ -273,4 +273,4 @@ def onKeyHold(keys): #tracing for the parabola's path
         Circle(one.x1,one.y1,1,fill='red')
     if 'd' in keys:
         Circle(one.x1,one.y2,1,fill='red')
-cmu-graphics.run()
+cmu_graphics.run()
