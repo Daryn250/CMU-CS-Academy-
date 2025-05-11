@@ -1,4 +1,4 @@
-from cmu-graphics import *
+from cmu_graphics import *
 # don't forget to run: pip install cmu-graphics
 ##### variable declaration
 import random
@@ -610,4 +610,4 @@ def onKeyPress(key):
         detail()
         progressBar.visible=False
 # SUPERPOSITION SUDOKU
-cmu-graphics.run()
+cmu_graphics.run()
