@@ -1,4 +1,4 @@
-from cmu-graphics import *
+from cmu_graphics import *
 # don't forget to run: pip install cmu-graphics
 ### This file was copied from CS1, 3rd Edition on 2023-02-28.
 # makes a cube. this was an attempt from Game Programming 1 for a creative project.
@@ -45,4 +45,4 @@ def onMouseMove(mouseX,mouseY):
     if mouseX>350:
         background.fill=gradient(rgb(50,173,167),rgb(29,102,98),start='top-left')
     pass
-cmu-graphics.run()
+cmu_graphics.run()
