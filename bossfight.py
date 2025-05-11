@@ -1,4 +1,4 @@
-from cmu-graphics import *
+from cmu_graphics import *
 # don't forget to run: pip install cmu-graphics
 # bossfight thing
 # import some funny stuff
@@ -1423,4 +1423,4 @@ for i in range(1):
             else:
                 player.dy-=speed
 
-cmu-graphics.run()
+cmu_graphics.run()
