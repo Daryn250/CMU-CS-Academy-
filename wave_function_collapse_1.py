@@ -1,4 +1,4 @@
-from cmu-graphics import *
+from cmu_graphics import *
 # don't forget to run: pip install cmu-graphics
 # this is my first attempt at a wave collapse function, it works but poorly. second attempt is my preferred and works better.
 
@@ -170,4 +170,4 @@ def onKeyPress(key):
     if key=='p':
         for i in range(random.randint(1,20)):
             onMousePress(random.randint(0,400),random.randint(0,400))
-cmu-graphics.run()
+cmu_graphics.run()
