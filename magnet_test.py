@@ -1,4 +1,4 @@
-from cmu-graphics import *
+from cmu_graphics import *
 # don't forget to run: pip install cmu-graphics
 # attempt at making magnets, the mouse attracts the cube
 app.stepsPerSecond=60
@@ -71,4 +71,4 @@ def onMouseMove(mouseX,mouseY):
     mouse[0]=mouseX
     mouse[1]=mouseY
     
-cmu-graphics.run()
+cmu_graphics.run()
