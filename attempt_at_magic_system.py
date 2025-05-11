@@ -1,4 +1,4 @@
-from cmu-graphics import *
+from cmu_graphics import *
 # don't forget to run: pip install cmu-graphics
 # magic system
 app.background=rgb(21,20,21)
@@ -37,4 +37,4 @@ def onMouseDrag(mouseX,mouseY):
                 hitting.remove(obj)
 def onMouseRelease(mouseX,mouseY):
     templine.visible=False
-cmu-graphics.run()
+cmu_graphics.run()
