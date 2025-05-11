@@ -1,4 +1,4 @@
-from cmu-graphics import *
+from cmu_graphics import *
 # don't forget to run: pip install cmu-graphics
 # unfinished
 import random
@@ -120,4 +120,4 @@ def interperetConnections(data):
 def onKeyPress(key):
     for bug in everyBug:
         bug.move(key)
-cmu-graphics.run()
+cmu_graphics.run()
