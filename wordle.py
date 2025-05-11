@@ -1,4 +1,4 @@
-from cmu-graphics import *
+from cmu_graphics import *
 # don't forget to run: pip install cmu-graphics
 import math as np
 app.background = rgb(15,15,15)
@@ -116,4 +116,4 @@ def onStep():
             input.shape.centerY = input.y
     if app.currentLine>4:
         lose()
-cmu-graphics.run()
+cmu_graphics.run()
