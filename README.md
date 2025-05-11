@@ -7,7 +7,13 @@ a*_search_algorithm.py - an adaptation of the a* pathfinding algorithm
 ascii_lighting.py - a lighting engine that uses ascii as lighting for varying 
 levels of brightness
 
+ascii_lighting2.py - slightly more optimized version of ascii_lighting.py
+
+ascii_lighting_optimized.py - heavily optimized version of ascii_lighting.py & ascii_lighting2.py
+
 bossfight.py - a game about surviving to beat a boss
+
+conways_game_of_life.py - conway's game of life with a scalable screen. space to pause/play
 
 cube0.py - my very first attempt at a cube
 
