@@ -1,4 +1,4 @@
-from cmu-graphics import *
+from cmu_graphics import *
 # don't forget to run: pip install cmu-graphics
 from math import *
 cleargroup=Group()
@@ -113,4 +113,4 @@ def onKeyHold(keys):
         angle_z+=0.05
     if 'q' in keys:
         angle_z-=0.05
-cmu-graphics.run()
+cmu_graphics.run()
