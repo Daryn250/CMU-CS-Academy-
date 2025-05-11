@@ -1,4 +1,4 @@
-from cmu-academy import *
+from cmu_academy import *
 # don't forget to run: pip install cmu-graphics
 # forces
 # each force (should) get a line showing that it exists and what direction it is. I made this in physics
@@ -87,4 +87,4 @@ def onStep():
         forceliney.y1=circ.centerY+(negy_force*10)
         forceliney.x2=circ.centerX
         forceliney.y2=circ.centerY+(posy_force*10)
-cmu-graphics.run()
+cmu_graphics.run()
