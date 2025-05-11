@@ -1,4 +1,4 @@
-from cmu-graphics import *
+from cmu_graphics import *
 # don't forget to run: pip install cmu-graphics
 # this is an unfinished game that I was making, similar to bossfight.py, except I wanted to make it better.
 import math as np
@@ -325,4 +325,4 @@ def onKeyPress(key):
         player.vy = -15
     if key == 'down':
         screenShake(12,60)
-cmu-graphics.run()
+    cmu_graphics.run()
