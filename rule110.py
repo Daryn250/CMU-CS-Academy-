@@ -1,8 +1,9 @@
 #rule 110
 from cmu_graphics import *
+# dont forget to run: pip install cmu-graphics
 import math
 import time
-size = 1000
+size = 50
 app.setMaxShapeCount(size*size)
 
 all_shape = Group()
