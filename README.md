@@ -23,6 +23,8 @@ cube2.py - able to make prisms such as rectangular prism, hexagonal prism, ect w
 
 final_cube.py - followed documentation of other's implementations of making a spinning 3d cube to create an actual 3 dimensional object
 
+rule110.py - a modifiable 1D cellular automaton that can create every single one of the different rules as found on https://en.wikipedia.org/wiki/Elementary_cellular_automaton#Rule_28 
+
 slots.py - my recreation of slots that uses a 3x5 grid of squares for payout with different lines, betting amounts, and jackpots.
 
 terrain_maker.py - my first attempt at making randomized terrain. uses just random.randint() and a 'turtle' object to loop through.
